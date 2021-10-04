@@ -7,3 +7,18 @@
     color: white;
     text-align: center;
 }
+.footer-nav{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.footer-nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-nav a:hover{
+    color:#FF284F;
+    
+}

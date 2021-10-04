@@ -26,7 +26,9 @@ const Service = () => {
             <div className ="course-section">
                     
                     {
-                       courses.map(course => <ServiceInformation course ={course}></ServiceInformation>)
+                       courses.map(course => <ServiceInformation 
+                        key={course.key}
+                        course ={course}></ServiceInformation>)
                     }
                 </div>
             </div>

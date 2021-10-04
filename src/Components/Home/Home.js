@@ -33,7 +33,9 @@ const Home = () => {
                 <div className ="Service-section">
                     
                     {
-                       courses.map(course => <HomeService course={course}></HomeService>)
+                       courses.map(course => <HomeService 
+                        key={course.key}
+                        course={course}></HomeService>)
                     }
                 </div>
             </div>
