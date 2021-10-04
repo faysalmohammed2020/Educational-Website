@@ -19,9 +19,9 @@ const Home = () => {
         <div className = "Home-container">
             <div className ="Hero-secton">
                <div className = "hero-content">
-                  <h1 className="hero-h1"><span style={{color : "#FF284F"}}>ঘরে বসে</span> পড়াশোনার সহজ সমাধান
+                  <h1 className="home-hero-h1"><span style={{color : "#FF284F"}}>ঘরে বসে</span> পড়াশোনার সহজ সমাধান
                   </h1>
-                  <p className="hero-p">ক্লাস ১-১২, ভর্তি পরীক্ষা, বিশ্ববিদ্যালয় ও চাকরি জীবনের জন্য পাবে স্পেশাল কোর্স, মডেল টেস্টসহ ২৪/৭ দিকনির্দেশনা। <span style={{color : "#FF284F"}}>সিলেক্ট করো তোমার সেকশন, শুরু করো তোমার জার্নি। </span></p>
+                  <p className="home-hero-p">ক্লাস ১-১২, ভর্তি পরীক্ষা, বিশ্ববিদ্যালয় ও চাকরি জীবনের জন্য পাবে স্পেশাল কোর্স, মডেল টেস্টসহ ২৪/৭ দিকনির্দেশনা। <span style={{color : "#FF284F"}}>সিলেক্ট করো তোমার সেকশন, শুরু করো তোমার জার্নি। </span></p>
                </div>
                <div className = "hero-img">
                <img className = "img" src={img}  alt=''></img>
