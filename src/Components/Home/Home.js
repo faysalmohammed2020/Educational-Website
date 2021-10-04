@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import'./Home.css';
 import img from '../../img/h1.png';
+import img2 from '../../img/studying.svg';
 import HomeService from '../HomeService/HomeService';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart,faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
     const [courses,setCourses]= useState([]);
@@ -37,7 +40,12 @@ const Home = () => {
 
 
             <div className ="bottom-container">
-                
+               <div className ="bottom-content">
+               <h2 className ="bottom-h2">শেখো <span style={{color : "#FF284F"}}>নিজের ইচ্ছেমতো!</span></h2>
+                <p className ="bottom-p">ভিডিও, কুইজ, ইন্টারেক্টিভ বই সমৃদ্ধ একাডেমিক লাইব্রেরি,প্রফেশনাল এবং স্কিল ডেভেলপমেন্ট  <br/>কোর্সসমূহ পাবে সবসময়, সম্পূর্ণ বিনামূল্যে!</p>
+                <button type="button" className="btn btn-outline-danger"> <FontAwesomeIcon icon ={faDownload}> </FontAwesomeIcon>    ডাউনলোড অ্যাপ</button>
+               </div>
+               <img className = "img2" src={img2}  alt=''></img>
             </div>
             
         </div>

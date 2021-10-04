@@ -36,4 +36,29 @@
     grid-gap: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
+
+}
+.bottom-container{
+    text-align: center;
+    margin-top: 150px;
+    background-color: #F7F8FA;
+   
+}
+.bottom-h2{
+    color: #3F3F3F;
+    font-size: 30px;
+    font-weight: 600;
+   
+}
+.bottom-p{
+    color: #757576;
+    font-size: 14px;
+    font-weight: 300;
+}
+.bottom-content{
+    padding-top: 50px;
+}
+.img2 {
+    margin-top: 100px;
+  
 }
