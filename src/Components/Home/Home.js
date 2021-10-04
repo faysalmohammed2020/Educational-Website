@@ -4,7 +4,7 @@ import img from '../../img/h1.png';
 import img2 from '../../img/studying.svg';
 import HomeService from '../HomeService/HomeService';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart,faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
     const [courses,setCourses]= useState([]);
