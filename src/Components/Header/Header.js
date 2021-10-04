@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAddressBook, faDownload, faHome, faPhone, faSchool } from '@fortawesome/free-solid-svg-icons';
+import { faAddressBook,  faHome, faPhone, faSchool } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import'./Header.css';
